@@ -6,7 +6,7 @@ html {
   padding: 0px;
   border: none;
   outline: none;
-  font-family: "Poppins", sans-serif;
+  font-family: $font-main, sans-serif;
 }
 button {
   cursor: pointer;
@@ -43,12 +43,12 @@ input::-webkit-inner-spin-button {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: $font-main, sans-serif;
   font-size: 14px;
-  color: $black;
+  color: $white-1;
   line-height: 1.7em;
   font-weight: 400;
-  background: $white-bg;
+  background: $black-bg;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
 }
@@ -72,7 +72,6 @@ h6 {
   background: none;
   line-height: 1.6em;
 }
-
 
 ul,
 li {

@@ -1,0 +1,254 @@
+@font-face {
+  font-family: "Hero New";
+  src: url(../fonts/HeroNew-ExtraBold.woff2);
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Hero New";
+  src: url(../fonts/HeroNew-BoldItalic.woff2);
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Hero New";
+  src: url(../fonts/HeroNew-SemiBold.woff2);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Hero New";
+  src: url(../fonts/HeroNew-Medium.woff2);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Hero New";
+  src: url(../fonts/HeroNew-Regular.woff2);
+  font-weight: 400;
+}
+/* Typography */
+h1 {
+  font-size: 46px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+
+p {
+  position: relative;
+  line-height: 1.8em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  outline: none;
+  font-family: "Hero New", Arial, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+body {
+  font-family: "Hero New", Arial, sans-serif;
+  font-size: 14px;
+  color: #cbcccf;
+  line-height: 1.7em;
+  font-weight: 400;
+  background: #202124;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+}
+
+body.active {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+  font-weight: normal;
+  margin: 0px;
+  background: none;
+  line-height: 1.6em;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.autoContainer {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 25px 0;
+}
+.header__inner-logo {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #fff;
+  text-transform: uppercase;
+}
+.header__inner > .nav {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-left: 30px;
+}
+
+.nav__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.nav__inner-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nav__inner-link {
+  color: #cbcccf;
+  padding: 5px;
+  margin: 0 5px;
+  -webkit-transition: 0.32s ease;
+  transition: 0.32s ease;
+}
+.nav__inner-link:hover {
+  color: #fff;
+}
+.nav__inner-link {
+  color: #cbcccf;
+  padding: 5px;
+  margin: 0 5px;
+  font-size: 18px;
+  -webkit-transition: 0.32s ease;
+  transition: 0.32s ease;
+}
+.nav__inner-link:hover {
+  color: #fff;
+}
+.nav__inner-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #cbcccf;
+  -webkit-transition: 0.32s ease;
+  transition: 0.32s ease;
+  font-size: 18px;
+}
+.nav__inner-search svg {
+  width: 1em;
+  height: 1em;
+}
+.nav__inner-search:hover {
+  color: #fff;
+}
+.nav__inner-login {
+  font-size: 18px;
+  color: #cbcccf;
+  padding: 10px;
+  margin: 0 0 0 15px;
+  -webkit-transition: 0.32s ease;
+  transition: 0.32s ease;
+}
+.nav__inner-login:hover {
+  color: #fff;
+}

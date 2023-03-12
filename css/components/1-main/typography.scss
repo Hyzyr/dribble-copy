@@ -1,3 +1,30 @@
+@font-face {
+  font-family: "Hero New";
+  src: url(../fonts/HeroNew-ExtraBold.woff2);
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Hero New";
+  src: url(../fonts/HeroNew-BoldItalic.woff2);
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Hero New";
+  src: url(../fonts/HeroNew-SemiBold.woff2);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Hero New";
+  src: url(../fonts/HeroNew-Medium.woff2);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Hero New";
+  src: url(../fonts/HeroNew-Regular.woff2);
+  font-weight: 400;
+}
+
 /* Typography */
 h1 {
   font-size: 46px;
@@ -16,6 +43,14 @@ h5 {
 }
 h6 {
   font-size: 18px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $white;
 }
 p {
   position: relative;
